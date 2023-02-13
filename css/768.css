@@ -1,4 +1,12 @@
 /* TABLETS */
+.entry-content_container p {
+  font-size: 14px;
+}
+
+.email_text {
+  margin: 1rem 0;
+  font-size: 2.7vw;
+}
 @media screen and (min-width: 768px) {
   /* SIDEBAR */
   .with-sidebar {
@@ -132,19 +140,6 @@
     font-size: 34px;
   }
 
-  /* PORTFOLIO SINGLE */
-  .portfolio-single .entry-content img,
-  .portfolio-single .entry-content .fluid-width-video-wrapper,
-  .portfolio-single .entry-content iframe,
-  .portfolio-single .entry-content video {
-    margin-bottom: 4em;
-  }
-  .mini-text {
-    margin: 2em auto 5em;
-  }
-  .mini-text .button {
-    margin: 3em 0;
-  }
 
   /* BLOG */
   .blog-regular > .entry-header .entry-title {
@@ -244,9 +239,17 @@
     max-width: 100%;
     width: 100%;
   }
+  
+  .entry-content_container p {
+    font-size: 1.1rem;
+  }
+
+  .email_text {
+    font-size: 1rem;
+  }
 }
 
-/* DESKTOPS */
+/* <-------------- DESKTOPS -----------> */
 @media screen and (min-width: 992px) {
   /* custom scrollbars for webkit browsers */
   *::-webkit-scrollbar {
@@ -379,28 +382,7 @@
     margin-right: auto;
   }
 
-  /* SERVICES */
-  .service {
-    padding: 0.6em 0 0;
-  }
-  .service i,
-  .service img {
-    width: 60px;
-    font-size: 64px;
-  }
-  .service p {
-    margin-left: 88px;
-  }
-  .service h4 {
-    margin-left: 88px;
-    margin-bottom: 0.8em;
-  }
 
-  /* CLIENTS */
-  html .client img {
-    max-height: 50px;
-    max-width: 104px;
-  }
 
   /* BLOG */
   .content-area:not(.with-sidebar)
@@ -432,19 +414,10 @@
     width: 33.3%;
   }
 
-  /* MAP */
-  .map {
-    max-width: 480px;
-  }
-
   /* BUTTONS */
   .button.huge {
     font-size: 13px;
     padding: 24px 44px;
   }
 
-  /* portfolio single nav  */
-  .portfolio-nav {
-    margin-bottom: 3em;
-  }
 }
